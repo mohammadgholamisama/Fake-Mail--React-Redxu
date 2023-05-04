@@ -1,6 +1,6 @@
 My Telegram ID : [@M155680](https://t.me/m155680)
 
-# Fake User Generate
+# Fake Email Generate
 
 A program to create fake emails and use them for free.
 
