@@ -19,7 +19,7 @@ export default function InboxMail() {
 
   useEffect(() => {
     dispatch(fetchEmail())
-  }, [])
+  }, [dispatch])
 
   function updateBtnText() {
     setTimeout(() => setBtnUpdateText('Updatin'), 0);
