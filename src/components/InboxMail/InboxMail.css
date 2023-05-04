@@ -1,0 +1,98 @@
+.inbox {
+    border: 1px solid #21232a44;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.inbox-top {
+    background-color: #21232a;
+    color: #fff;
+}
+
+.update-inbox {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.update-inbox-btn {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    background-color: #fff;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.459);
+    transition: 0.1s;
+}
+
+.update-inbox-btn:hover {
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.459);
+    transform: scale(1.1);
+}
+
+.inbox-emails-container {
+    min-height: 300px;
+    background-color: antiquewhite;
+}
+
+.inbox-emails-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.inbox-emails-list li {
+    background-color: #00c7855b;
+    margin-top: 5px;
+    transition: 0.1s;
+}
+
+.inbox-emails-list li:hover {
+    background-color: #2f2f31c0;
+}
+
+.inbox-mail-link {
+    padding: 15px;
+    cursor: pointer;
+    color: #21232a;
+    min-height: 70px;
+}
+
+.inbox-mail-link:hover {
+    color: #fff;
+}
+
+.inbox-mail-link:hover .inbox-mail-icon {
+    transition: 0.3s;
+    transform: scale(2) translateX(-10px);
+}
+
+.inbox-mail-link:hover .inbox-email-info-mail {
+    color: #fff;
+}
+
+.inbox-email-info-mail {
+    font-size: 14px;
+    color: #21232ab9;
+    overflow: auto;
+}
+
+.inbox-email-subject {
+    font-size: 15px;
+    overflow: auto;
+}
+
+.mail-date {
+    font-size: 10px;
+    position: absolute;
+    bottom: -20px;
+    right: 10px;
+    color: #00000098;
+
+}
+
+@media only screen and (max-width: 767px) {
+    .inbox-email-info-mail {
+        font-size: 11px;
+        color: #21232ab9;
+    }
+}

@@ -1,0 +1,63 @@
+.mail-box-container {
+    border: 2px dashed rgba(255, 255, 255, 0.445);
+    width: 500px;
+    padding: 20px;
+    position: relative;
+}
+
+.mail-box-desk {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+.mail-box-input {
+    background-color: #7a7a7a38;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 23px;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.mail-box-btn {
+    display: flex;
+    border-radius: 50%;
+    border: none;
+    padding: 8px;
+    font-size: 25px;
+    background-color: #00c785;
+    color: #fff;
+    cursor: pointer;
+}
+
+.mail-refresh {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    border: none;
+    background-color: #ffffffab;
+}
+
+.mibile-mod-copy {
+    display: none;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color: #00c785;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:430px) {
+    .mail-box-btn {
+        display: none;
+    }
+
+    .mibile-mod-copy {
+        display: inline;
+    }
+}
