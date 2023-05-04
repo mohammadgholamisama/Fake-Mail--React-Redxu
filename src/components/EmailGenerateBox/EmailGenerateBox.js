@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react'
-import './EmailBox.css'
+import './EmailGenerateBox.css'
 import { RiFileCopyFill } from 'react-icons/ri'
 import { HiOutlineRefresh } from 'react-icons/hi'
 // Redux
 import { useDispatch, useSelector } from 'react-redux'
 import { fetchEmail } from '../../Redux/reducers/fakeMailReducer'
 
-export default function EmailBox() {
+export default function EmailGenerateBox() {
 
   const dispatch = useDispatch()
   const email = useSelector(state => state.mail.mail.toString())

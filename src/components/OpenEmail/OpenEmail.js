@@ -1,7 +1,7 @@
 import React from 'react'
-import './MailBox.css'
+import './OpenEmail.css'
 
-export default function MailBox({ emailData }) {
+export default function OpenEmail({ emailData }) {
     return (
         <div className='mail-box my-4'>
             <div className="container">

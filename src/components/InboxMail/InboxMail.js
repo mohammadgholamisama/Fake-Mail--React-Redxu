@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './InboxMail.css'
 import { FaAngleRight } from 'react-icons/fa'
-import MailBox from '../MailPage/MailBox'
+import OpenEmail from '../OpenEmail/OpenEmail'
 // Redux
 import { useDispatch, useSelector } from 'react-redux'
 import { getInbox } from '../../Redux/reducers/inboxMailReducer'
@@ -55,6 +55,7 @@ export default function InboxMail() {
       <div className="container">
         <div className="update-inbox" onClick={inboxDataUpdate}>
           <button className='update-inbox-btn'>{btnUpdateText}</button>
+          <span className='mt-2 text-secondary'>Click to update the received email list</span>
         </div>
         <div className="row">
           <div className="col-sm-12 offset-lg-2 col-lg-8">
@@ -87,7 +88,7 @@ export default function InboxMail() {
         </div>
       </div>
       <div className="email-datas">
-        <MailBox emailData={emailData} ></MailBox>
+        <OpenEmail emailData={emailData} ></OpenEmail>
       </div>
     </div>
   )

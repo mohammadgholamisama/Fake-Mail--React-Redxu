@@ -1,10 +1,19 @@
 import './App.css';
-import Home from './components/Home/Home';
+import InboxMail from './components/InboxMail/InboxMail'
+import Navbar from './components/Navbar/Navbar'
+import EmailGenerateBox from './components/EmailGenerateBox/EmailGenerateBox'
+
 
 function App() {
   return (
     <>
-      <Home />
+      <div className="header">
+        <div className="container">
+          <Navbar />
+          <EmailGenerateBox />
+        </div>
+      </div>
+      <InboxMail />
     </>
   );
 }

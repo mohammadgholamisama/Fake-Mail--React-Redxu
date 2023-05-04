@@ -40,6 +40,12 @@
     border: none;
     background-color: #ffffffab;
 }
+.mail-refresh:hover{
+    background-color: #fff;
+}
+.mail-refresh:active{
+    transform: scale(1.2);
+}
 
 .mibile-mod-copy {
     display: none;

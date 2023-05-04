@@ -1,15 +1,17 @@
-.mail-box-info{
+.mail-box-info {
     background: #21232a url('../../../public/header-bg.jpg');
     padding: 10px 20px;
     border-radius: 10px;
+    word-wrap: break-word;
 }
 
-.mail-box-title{
+.mail-box-title {
     color: #fff;
     font-size: 19px;
     font-weight: bold;
 }
-.mail-box-dsk{
+
+.mail-box-dsk {
     color: rgb(228, 228, 228);
     font-size: 15px;
 }
