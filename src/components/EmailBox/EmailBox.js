@@ -48,7 +48,7 @@ export default function EmailBox() {
           <button className='mail-refresh' onClick={newEmilHandler}><HiOutlineRefresh /></button>
         </div>
         <div className="text-center mt-3">
-          <button className='mibile-mod-copy'><RiFileCopyFill /> Copy Email</button>
+          <button className='mibile-mod-copy' onClick={copyEmailHandler}><RiFileCopyFill /> Copy Email</button>
         </div>
       </div>
     </div>
